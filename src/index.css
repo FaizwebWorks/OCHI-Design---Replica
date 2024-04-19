@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: founders grotesk;
+  src: url(../src/assets/FoundersGrotesk-Semibold.woff2);
+}
+
+@font-face {
+  font-family: neue;
+  src: url(../src/assets/NeueMontreal-Regular.woff2);
+}
+
+.nav {
+  backdrop-filter: blur(10px);
+}
+
+.onhover {
+  transition: all cubic-bezier(0.22, 1, 0.36, 1) 0.5s;
+}
+
+.onhover:hover {
+  background-color: #212121;
+  color: #f4f4f4;
+}
+
+.font2 {
+  font-family: neue;
+}
+
+.fonts {
+  font-family: founders grotesk;
+}
+
+.animation {
+  transition: all ease 0.8s;
+}
+
+.anim2 {
+  transition: all ease 0.8s;
+}
+
+.circle {
+  transition: all ease 0.25s;
+}
+.circle2 {
+  transition: all ease 0.25s;
+}
+
+.btn:hover .icon {
+  opacity: 1;
+  color: #212121;
+}
+
+.btn:hover {
+  background-color: #181818;
+}
+
+.btn:hover .circle {
+  scale: 4.8;
+}
+
+.btn:hover .circle2 {
+  scale: 4;
+}
+
+.hcard {
+  transition: all linear 0.5s;
+}
+
+.hcard:hover {
+  background-color: #f4f4f4;
+  color: #212121;
+  border: none;
+}
